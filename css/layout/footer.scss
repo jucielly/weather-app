@@ -1,0 +1,11 @@
+.footer {
+  @include display-flex();
+}
+
+.footer-message {
+  color: $font-collor;
+}
+
+.fa-heart{
+  color: #D7907B;
+}
