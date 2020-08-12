@@ -1,0 +1,19 @@
+{
+  "name": "weather-app",
+  "version": "1.0.0",
+  "description": "weather application made with open weather map api",
+  "main": "index.js",
+  "author": "jucielly",
+  "license": "MIT",
+  "dependencies": {
+    "-": "^0.0.1"
+  },
+  "scripts": {
+    "sass": "sass --watch css/style.scss: style.css"
+  },
+  "devDependencies": {
+    "eslint": "^7.6.0",
+    "eslint-config-airbnb-base": "^14.2.0",
+    "eslint-plugin-import": "^2.22.0"
+  }
+}
