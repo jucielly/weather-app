@@ -9,7 +9,7 @@
     "-": "^0.0.1"
   },
   "scripts": {
-    "sass": "sass --watch css/style.scss: style.css"
+    "sass": "sass --watch css/style.scss:css/style.css"
   },
   "devDependencies": {
     "eslint": "^7.6.0",
