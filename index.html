@@ -4,11 +4,29 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/11e9e029cd.js" crossorigin="anonymous"></script>
     <title>Weather App</title>
 </head>
 
 <body>
+    <header class="main-header">
+        <h1 class="title">My Weather App <i class="fas fa-wind"></i></h1>
 
+        <input type="text" placeholder="search location" id="search-input" class="input" />
+        <button type="button" id="search-btn">search</button>
+
+    </header>
+
+    <main>
+        <section class="main-section">
+            <template class="weather-card">
+
+            </template>
+        </section>
+    </main>
+    <footer class="footer">
+        <span class="footer-message"> made with <i class="fas fa-heart"></i> by Jucielly </span>
+    </footer>
 </body>
 
 </html>
