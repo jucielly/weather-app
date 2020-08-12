@@ -406,6 +406,12 @@ th {
   font-family: "Baloo Tamma 2", cursive;
 }
 
+.title {
+  text-align: center;
+  color: #27252b;
+  font-size: 60px;
+}
+
 .search-form input {
   border: none;
   text-align: center;
