@@ -22,3 +22,4 @@ A weather application to get the temperature, weather condition and whether of a
 
 ESLINT for linting
 
+**you can check the final version [here](https://jucielly.github.io/weather-app/.)**
