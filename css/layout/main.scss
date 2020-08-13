@@ -5,4 +5,55 @@ body {
 }
 .main {
   flex-grow: 1;
+  margin: 2em;
+}
+
+.card {
+  @include basic-border();
+  @include box-shadow();
+  @include display-flex();
+  flex-direction: column;
+  width: 150px;
+  padding: 3em;
+  font-family: $main-font;
+  transition: 0.3s;
+  p {
+    letter-spacing: 3px;
+    margin: 0.7em;
+  }
+
+  i {
+    font-size: 50px;
+    color: $main-collor;
+  }
+
+  &:hover {
+    animation: bounce 0.5s linear;
+    cursor: pointer;
+  }
+}
+
+.city-name {
+  padding-top: 0;
+  font-size: 30px;
+}
+
+.temperature {
+  font-size: 200%;
+}
+
+@keyframes bounce {
+  20% {
+    transform: translateY(-6px);
+  }
+  40% {
+    transform: translateY(0px);
+  }
+
+  80% {
+    transform: translateY(-2px);
+  }
+  100% {
+    transform: translateY(0);
+  }
 }
