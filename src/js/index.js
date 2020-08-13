@@ -34,5 +34,4 @@ searchForm.addEventListener('submit', (e) => {
   e.preventDefault();
   const inputValue = searchForm['search-input'].value;
   fetchCityData(inputValue);
-  inputValue.value = '';
 });
