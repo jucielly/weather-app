@@ -1,0 +1,43 @@
+.main-header {
+  @include display-flex();
+  flex-direction: column;
+  font-family: $main-font;
+}
+
+.title {
+  text-align: center;
+  color: $font-collor;
+  font-size: 60px;
+}
+
+.search-form {
+  input {
+    border: none;
+    text-align: center;
+    padding: $base-padding;
+    @include hover-transition();
+    @include basic-border();
+    @include box-shadow();
+    &:focus {
+      outline: none;
+    }
+  }
+
+  button {
+    border: none;
+    padding: $base-padding;
+    color: $basic-collor;
+    @include hover-transition();
+    @include basic-border();
+    @include box-shadow();
+    background-color: $btn-collor;
+
+    &:hover {
+      outline: none;
+      background-color: $hover-collor;
+    }
+    &:focus {
+      outline: none;
+    }
+  }
+}
