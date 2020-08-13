@@ -36,5 +36,8 @@
       outline: none;
       background-color: $hover-collor;
     }
+    &:focus {
+      outline: none;
+    }
   }
 }

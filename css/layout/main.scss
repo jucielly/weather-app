@@ -8,6 +8,11 @@ body {
   margin: 2em;
 }
 
+.weather-list {
+  @include display-flex();
+  justify-content: space-between;
+}
+
 .card {
   @include basic-border();
   @include box-shadow();
@@ -15,6 +20,7 @@ body {
   flex-direction: column;
   width: 150px;
   padding: 3em;
+  margin: 1em;
   font-family: $main-font;
   transition: 0.3s;
   p {

@@ -404,6 +404,10 @@ th {
   padding: 0;
 }
 
+li {
+  list-style: none;
+}
+
 .main-header {
   display: flex;
   align-items: center;
@@ -443,6 +447,9 @@ th {
   outline: none;
   background-color: #6d5ad8;
 }
+.search-form button:focus {
+  outline: none;
+}
 
 body {
   display: flex;
@@ -456,6 +463,12 @@ body {
   margin: 2em;
 }
 
+.weather-list {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
 .card {
   border-radius: 5px;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
@@ -464,6 +477,7 @@ body {
   flex-direction: column;
   width: 150px;
   padding: 3em;
+  margin: 1em;
   font-family: "Baloo Tamma 2", cursive;
   transition: 0.3s;
 }
