@@ -3,7 +3,7 @@ import { API_KEY } from './utils.js';
 const searchForm = document.querySelector('.search-form');
 
 const fetchCityData = (city) => {
-  fetch(`http://api.openweathermap.org/data/2.5/weather?q=${city}&units=metric&APPID=${API_KEY}`).then((response) => response.json())
+  fetch(`https://api.openweathermap.org/data/2.5/weather?q=${city}&units=metric&APPID=${API_KEY}`).then((response) => response.json())
     .then((data) => {
       console.log(data);
       const { name, weather, main } = data;
